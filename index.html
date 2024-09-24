@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Happyyy Birthdayyy Cintanyaaa dikaaa ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: url('picture/love1.png') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: none;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            flex-direction: column;
+        }
+
+        .slide img, .slide video {
+            max-width: 90%;
+            max-height: 70%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .content {
+            position: absolute;
+            top: 10%;
+            width: 100%;
+            color: #333;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 3s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .extra-text {
+            position: absolute;
+            bottom: 20%;
+            width: 100%;
+            color: #f00;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+            animation: slideIn 4s ease-out infinite;
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            50% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+   <!-- Slide 1 dengan video -->
+   <div id="slide1" class="slide">
+    <div class="content">Happy birthday yang ke 21 nya sayangku cinta, rike wulandariii ❤️❤️❤️</div>
+    <video id="video1" src="video/video1.mp4" controls muted></video>
+    <div class="extra-text"></div>
+</div>
+
+    <!-- Slide 2 -->
+    <div id="slide2" class="slide">
+        <div class="content">Harapannya semoga sehat selalu,berkah ,panjang umur,apa yang dicita citakan tercapai,dan bisa ngebahagiain keluarga kamu terutama mimih.</div>
+        <img src="picture/foto2.jpeg" alt="Happy Birthday">
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div id="slide3" class="slide">
+        <div class="content">Dan dengan di ulangtahun kamu ini,bisa jadi diri rike yang sebenernya ,dalam arti tetep terus kaya gini sikapnya dan ga pernah berubah,punya rasa toleransi dan kasih sayang yang ga ada bandinganya.</div>
+        <img src="picture/foto3.jpeg" alt="Celebration">
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div id="slide4" class="slide">
+        <div class="content">Dan berharap juga untuk hubungan kita bisa bareng bareng terus walaupun banyak rintangan,bisa dikatakan mudah kalau kita berjuang bersama sama ❤️❤️❤️❤️❤️</div>
+        <img src="picture/foto4.jpeg" alt="Lovely Couple">
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 5 dengan video -->
+    <div id="slide5" class="slide">
+        <div class="content">Tetep jadi orang baik dan positif person ,jangan overthinking ,kamu ga sendiri ,sebisa mungkin libatin masalah kamu ke aku juga,biar kalo sedih bisa bagi bagi ,rasa nya ga adil kalo cuma senangnya aja yg dibagiin</div>
+        <video id="video2" src="video/video2.mp4" controls muted></video>
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div id="slide6" class="slide">
+        <div class="content">I hope you can be love yourself after that can be love me</div>
+        <img src="picture/foto6.jpeg" alt="Special Moment">
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div id="slide7" class="slide">
+        <div class="content">So i still love you, buat rike wulandari [wanita yang bisa menjadi penerang layaknya bulan bundar yang menerangi malam]❤️❤️❤️</div>
+        <img src="picture/foto7.jpeg" alt="Couple Hugging">
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 8 -->
+    <div id="slide8" class="slide">
+        <div class="content">I love you so much sayangku cinta❤️❤️❤️</div>
+        <img src="picture/foto8.jpeg" alt="Romantic Moment">
+        <div class="extra-text"></div>
+    </div>
+
+     <!-- Slide 9 -->
+     <div id="slide9" class="slide">
+        <div class="content"></div>
+        <img src="picture/foto9.jpeg" alt="Romantic Moment">
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Slide 10 dengan video -->
+    <div id="slide10" class="slide">
+        <div class="content">
+        <video id="video3" src="video/video3.mp4" controls muted></video>
+        <div class="extra-text"></div>
+    </div>
+
+    <!-- Music -->
+    <audio id="backgroundMusic" class="music" autoplay loop>
+        <source src="song/song1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 10; // Total jumlah slide
+        const slideInterval = 4000; // Durasi antar slide kecuali slide dengan video
+        let slideTimeout; // Variabel untuk mengatur timeout
+
+        const backgroundMusic = document.getElementById("backgroundMusic");
+
+        function showSlide(n) {
+            clearTimeout(slideTimeout); // Hentikan pergerakan otomatis sebelumnya
+            for (let i = 1; i <= totalSlides; i++) {
+                document.getElementById(`slide${i}`).style.display = 'none';
+            }
+            if (n <= totalSlides) {
+                document.getElementById(`slide${n}`).style.display = 'flex';
+            }
+
+            // Cek apakah slide memiliki video, jika ya, pause audio dan tunggu hingga video selesai
+            const video = document.querySelector(`#slide${n} video`);
+            if (video) {
+                backgroundMusic.pause(); // Pause background music saat video diputar
+                video.play();
+                video.onended = function() {
+                    currentSlide++;
+                    if (currentSlide <= totalSlides) {
+                        backgroundMusic.play(); // Lanjutkan musik setelah video selesai
+                        showSlide(currentSlide);
+                    }
+                };
+            } else {
+                if (currentSlide < totalSlides) {
+                    slideTimeout = setTimeout(nextSlide, slideInterval); // Lanjutkan pergerakan otomatis setelah interval biasa
+                }
+            }
+        }
+
+        function nextSlide() {
+            currentSlide++;
+            if (currentSlide <= totalSlides) {
+                showSlide(currentSlide);
+            }
+        }
+
+        // Mulai dari slide 1
+        showSlide(currentSlide);
+    </script>
+</body>
+</html>
